@@ -1,0 +1,40 @@
+.quickjava-button {
+    width:          20px;
+    border:         1px solid rgba(68,68,68,0.6);
+    border-radius:  3px;
+    margin:         1px 2px;
+    font:           bold 12px arial,sans-serif;
+    text-align:     center;
+    text-shadow:    none;
+    color:          #FFF;
+    background:     linear-gradient(
+        rgba(246,110,110,0.8),
+        rgba(212, 76, 76,0.8),
+        rgba(246,110,110,0.8));
+}
+  
+.quickjava-button:active:hover {
+    box-shadow:     0 0 4px rgba(0,0,0,0.5) inset;
+    color:          #DDD;
+}
+  
+.quickjava-button[status="1"] {
+    background:     linear-gradient(
+        rgba(110,162,212,0.8),
+        rgba( 76,128,178,0.8),
+        rgba(110,162,212,0.8));
+}
+
+.QuickJava_StatusIcon_Container[status="-1"] {
+    display:        none;
+}
+
+.quickjava-favorites-different {
+  font: 10px arial,sans-serif;
+  margin: 0px;
+  display: none;
+}
+
+.quickjava-favorites-different[status="1"] {
+  display: block;
+}
